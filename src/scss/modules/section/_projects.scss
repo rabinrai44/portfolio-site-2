@@ -1,0 +1,26 @@
+.section-projects {
+    p {
+        margin-top: 1.75rem;
+    }
+
+    .project-grid {
+        padding: 3rem 0;
+
+        .btn-group a:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+
+    .project-stack {
+        font-weight: bold;
+    }
+
+    .project-title {
+        font-size: 1.75rem;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+

@@ -6081,14 +6081,14 @@ section {
       width: 75%; } }
 
 .btn--text {
-  color: #b89e97;
+  color: #7DCE94;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #b89e97;
+  border-bottom: 1px solid #7DCE94;
   padding: 3px;
   transition: all .2s; }
   .btn--text:hover {
-    background-color: #b89e97;
+    background-color: #7DCE94;
     color: #fff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     transform: translateY(-2px); }
@@ -6172,3 +6172,20 @@ section {
 
 .fa-wordpress {
   color: #21759b; }
+
+.section-projects p {
+  margin-top: 1.75rem; }
+
+.section-projects .project-grid {
+  padding: 3rem 0; }
+  .section-projects .project-grid .btn-group a:not(:last-child) {
+    margin-right: 10px; }
+
+.section-projects .project-stack {
+  font-weight: bold; }
+
+.section-projects .project-title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px; }
