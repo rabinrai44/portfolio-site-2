@@ -4,6 +4,9 @@ body {
     color: $primary_dark_color;
     line-height: 1.65;
 }
+p {
+  opacity: .7;
+}
 h2 {
     line-height: 1.25rem;
     margin: 0;
@@ -15,9 +18,9 @@ h2 {
     font-weight: 400;
   }
   hr {
-    height: 4px;
+    height: 3px;
     width: 6.25rem;
-    background: #1098f7;
+    background: $primary_color;
     position: relative;
     border: 0;
     margin: 2rem auto 2rem auto;
@@ -25,7 +28,7 @@ h2 {
     &--small {
         height: 2px;
         width: 6.25rem;
-        background: #b89e97;
+        background: $primary_dark_color;
         position: relative;
         border: 0;
         margin-bottom: 2rem;
@@ -43,13 +46,11 @@ h2 {
     padding: 3.75rem 0;
   }
   .section-title {
+    color: $primary_dark_color;
     padding-top: 10px;
-    padding-right: 0;
-    padding-left: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .section-subtitle {
-    color: rgba($primary_dark_color, 0.5);
     margin: auto;
 
     @media(min-width: 768px) {
