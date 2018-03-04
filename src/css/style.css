@@ -6049,20 +6049,23 @@ hr {
   position: relative;
   border: 0;
   margin: 2rem auto 2rem auto; }
-
-.hr-small {
-  height: 2px;
-  width: 6.25rem;
-  background: #b89e97;
-  position: relative;
-  border: 0;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem; }
+  hr--small {
+    height: 2px;
+    width: 6.25rem;
+    background: #b89e97;
+    position: relative;
+    border: 0;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; }
 
 img {
   max-width: 100%; }
+
+section {
+  width: 100%;
+  padding: 3.75rem 0; }
 
 .section-title {
   padding-top: 10px;
@@ -6109,3 +6112,9 @@ img {
     font-weight: 400;
     margin-bottom: 3.75rem;
     letter-spacing: 0.125rem; }
+
+.section-about p {
+  margin-top: 1.25rem; }
+
+.section-about img {
+  max-width: 100%; }
