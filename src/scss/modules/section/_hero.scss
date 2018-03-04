@@ -1,0 +1,31 @@
+#hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .6)), url(https://images.pexels.com/photos/34088/pexels-photo.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.section-hero {
+    
+    &--content {
+        display: table-cell;
+        vertical-align: middle;
+        width: 1%;
+        height: 100vh;
+        color: white;
+        text-align: left;
+
+        h1 {
+            font-size: 3.875rem;
+            font-weight: 400;
+        }
+        
+        p {
+            font-size: 1.125rem;
+            font-weight: 400;
+            margin-bottom: 3.75rem;
+            letter-spacing: 0.125rem;
+        }
+    }
+}

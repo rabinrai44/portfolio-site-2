@@ -1,0 +1,12 @@
+// Site-theme-colors variable
+$primary_color: #7DCE94;
+$primary_dark_color: #3D3D3F;
+$white_color_1: #F6F5F3;
+$white_color_2: #F9F8FD;
+
+
+// Bootstrap OVERRIDE
+$body-bg: #f3f6f8;
+$theme-colors: (
+    "primary": $primary_color
+);
