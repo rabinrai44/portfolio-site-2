@@ -47,9 +47,12 @@ h2 {
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 5rem;
+  }
+  .section-subtitle {
+    color: rgba($primary_dark_color, 0.5);
+    margin: auto;
 
-    &--subtitle {
-        max-width: 60%;
-        margin: auto;
-      }
+    @media(min-width: 768px) {
+      width: 75%;
+    }
   }

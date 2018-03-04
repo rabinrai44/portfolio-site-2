@@ -6072,9 +6072,13 @@ section {
   padding-right: 0;
   padding-left: 0;
   margin-bottom: 5rem; }
-  .section-title--subtitle {
-    max-width: 60%;
-    margin: auto; }
+
+.section-subtitle {
+  color: rgba(61, 61, 63, 0.5);
+  margin: auto; }
+  @media (min-width: 768px) {
+    .section-subtitle {
+      width: 75%; } }
 
 .btn--text {
   color: #b89e97;
@@ -6118,3 +6122,53 @@ section {
 
 .section-about img {
   max-width: 100%; }
+
+.section-skills .skill-list {
+  margin: 0;
+  padding: 0; }
+  .section-skills .skill-list li {
+    position: relative;
+    display: inline-block;
+    margin-right: 0.9375rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    border: 1px solid #3D3D3F;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; }
+    .section-skills .skill-list li:last-child {
+      margin-right: 0; }
+    .section-skills .skill-list li:hover {
+      background-color: #3D3D3F; }
+    .section-skills .skill-list li span {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 100%; }
+
+/* Tech Brand Colors */
+.fa-html5 {
+  color: #e34f26; }
+
+.fa-css3 {
+  color: #1572b6; }
+
+.fa-js {
+  color: #f0db4f; }
+
+.fa-php {
+  color: #8892be; }
+
+.fa-node-js {
+  color: #6cc24a; }
+
+.fa-react {
+  color: #00d8ff; }
+
+.fa-github {
+  color: #4078c0; }
+
+.fa-wordpress {
+  color: #21759b; }

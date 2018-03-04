@@ -1,0 +1,63 @@
+.section-skills {
+
+    
+    .skill-list {
+        margin: 0;
+        padding: 0;
+
+        li {
+            position: relative;
+            display: inline-block;
+            margin-right: 0.9375rem;
+            height: 5rem;
+            width: 5rem;
+            border-radius: 100%;
+            border: 1px solid $primary_dark_color;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                background-color: $primary_dark_color;
+            }
+
+            span {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Tech Brand Colors */
+.fa-html5 {
+    color: #e34f26;
+}
+.fa-css3 {
+    color: #1572b6;
+}
+.fa-js {
+    color:#f0db4f;
+}
+.fa-php {
+    color: #8892be;
+}
+.fa-node-js {
+    color: #6cc24a;
+}
+.fa-react {
+    color: #00d8ff;
+}
+.fa-github {
+    color: #4078c0;
+}
+.fa-wordpress {
+    color: #21759b;
+}
+
