@@ -1,0 +1,12 @@
+// Bootstrap OVERRIDE
+$body-bg: #f3f6f8;
+$theme-colors: (
+    "primary": #1098f7
+);
+
+body {
+    background: $body-bg;
+}
+
+
+@import 'node_modules/bootstrap/scss/bootstrap';
