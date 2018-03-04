@@ -24,7 +24,11 @@ h2 {
     position: relative;
     border: 0;
     margin: 2rem auto 2rem auto;
-
+  }
+  .hr {
+    &--white {
+      background: $white_color_2;
+    }
     &--small {
         height: 2px;
         width: 6.25rem;
