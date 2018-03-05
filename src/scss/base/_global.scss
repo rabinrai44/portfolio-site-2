@@ -45,15 +45,18 @@ h2 {
   img {
     max-width: 100%;
   }
-  section,
-  footer {
+  section {
     width: 100%;
-    padding: 3.75rem 0;
+    padding: 4rem 0;
   }
   .section-title {
     color: $primary_dark_color;
     padding-top: 10px;
     margin-bottom: 2rem;
+
+    &--white {
+      color: $white_color_2;
+    }
   }
   .section-subtitle {
     margin: auto;

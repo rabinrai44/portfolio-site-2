@@ -1,5 +1,6 @@
 .section-skills {
 
+    color: $white_color_2;
     
     .skill-list {
         margin-top: 2.5rem;
@@ -12,16 +13,16 @@
             height: 5rem;
             width: 5rem;
             border-radius: 100%;
-            border: 1px solid $primary_dark_color;
+            border: 2px solid transparent;
             text-align: center;
             cursor: pointer;
-            transition: all 0.4s ease-in-out;
+            transition: all 0.5s ease-in-out;
 
             &:last-child {
                 margin-right: 0;
             }
             &:hover {
-                background-color: $primary_dark_color;
+                border-color: $primary_color;
             }
 
             span {

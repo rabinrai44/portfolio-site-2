@@ -1,5 +1,10 @@
 .section-testimonials {
+    color: $white_color_2;
+    h2 {
+        color: $white_color_1;
+    }
     blockquote {
+        color: $primary_dark_color;
         background-color: $white_color_1;
         display: block;
         font-size: 0.875rem;
@@ -7,6 +12,7 @@
         padding: 0.9375rem;
         position: relative;
         border: 0;
+        border-radius: 5px;
 
         &::after {
             content: "";
@@ -28,15 +34,18 @@
             height: 4.6875rem;
             padding: 3px;
             width: 4.6875rem;
+            margin-right: 0.625rem;
         }
 
         span {
             display: block;
         }
-
-        span.testimonial-name {
+        .testimonial-name {
             font-weight: 600;
             margin: 1rem 0 5px;
+        }
+        .testimonial-post {
+            font-style: italic;
         }
     }
 }
