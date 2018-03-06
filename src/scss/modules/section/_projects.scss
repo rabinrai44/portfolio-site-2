@@ -1,4 +1,8 @@
 .section-projects {
+    text-align: center;
+    @media (min-width: 540px) {
+        text-align: inherit;
+    }
     p {
         margin-top: 1.75rem;
     }

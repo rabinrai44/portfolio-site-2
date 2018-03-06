@@ -1,5 +1,10 @@
 .section-about {
 
+    text-align: center;
+    
+    @media (min-width: 320px) {
+        text-align: inherit;
+    }
     p {
         margin-top: 1.25rem;    
     }

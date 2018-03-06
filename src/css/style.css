@@ -6077,7 +6077,8 @@ section {
 .section-title {
   color: #3D3D3F;
   padding-top: 10px;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  line-height: 2.5rem; }
   .section-title--white {
     color: #F9F8FD; }
 
@@ -6160,19 +6161,27 @@ section {
   color: white;
   text-align: left; }
   .section-hero--content h1 {
-    font-size: 3.875rem;
     font-weight: 400; }
+    @media (min-width: 768px) {
+      .section-hero--content h1 {
+        font-size: 3.875rem; } }
   .section-hero--content p {
     font-size: 1.125rem;
-    font-weight: 400;
-    margin-bottom: 3.75rem;
     letter-spacing: 0.125rem; }
+    @media (min-width: 540px) {
+      .section-hero--content p {
+        font-weight: 400;
+        margin-bottom: 3.75rem; } }
 
-.section-about p {
-  margin-top: 1.25rem; }
-
-.section-about img {
-  max-width: 100%; }
+.section-about {
+  text-align: center; }
+  @media (min-width: 320px) {
+    .section-about {
+      text-align: inherit; } }
+  .section-about p {
+    margin-top: 1.25rem; }
+  .section-about img {
+    max-width: 100%; }
 
 .section-skills {
   color: #F9F8FD; }
@@ -6226,22 +6235,24 @@ section {
 .fa-wordpress {
   color: #21759b; }
 
-.section-projects p {
-  margin-top: 1.75rem; }
-
-.section-projects .project-grid {
-  padding: 3rem 0; }
-  .section-projects .project-grid .btn-group a:not(:last-child) {
-    margin-right: 10px; }
-
-.section-projects .project-stack {
-  font-weight: bold; }
-
-.section-projects .project-title {
-  font-size: 1.75rem;
-  font-weight: 400;
-  margin-top: 10px;
-  margin-bottom: 10px; }
+.section-projects {
+  text-align: center; }
+  @media (min-width: 540px) {
+    .section-projects {
+      text-align: inherit; } }
+  .section-projects p {
+    margin-top: 1.75rem; }
+  .section-projects .project-grid {
+    padding: 3rem 0; }
+    .section-projects .project-grid .btn-group a:not(:last-child) {
+      margin-right: 10px; }
+  .section-projects .project-stack {
+    font-weight: bold; }
+  .section-projects .project-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 .section-testimonials {
   color: #F9F8FD; }
