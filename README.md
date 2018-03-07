@@ -25,12 +25,12 @@ It is a onepage portfolio site for Coding-Challenge #2. This is for a client who
  - [Font-Awesome](https://fontawesome.com/)
  
  ### Development Tools and Technology
- - [NodeJS]()
- - [NPM]()
- - [Gulp]()
- - [Gulp-sass]()
- - [BrowserSync]()
- - [VS Code]()
+ - [NodeJS](https://nodejs.org/en/)
+ - [NPM](https://www.npmjs.com/)
+ - [Gulp](https://gulpjs.com/)
+ - [Gulp-sass](https://www.npmjs.com/package/gulp-sass)
+ - [BrowserSync](https://browsersync.io/)
+ - [VS Code](https://code.visualstudio.com/)
  - Macbook Pro
  - Google Chrome
  - Mozilla
