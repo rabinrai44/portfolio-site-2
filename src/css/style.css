@@ -6186,29 +6186,14 @@ section {
 .section-skills {
   color: #F9F8FD; }
   .section-skills .skill-list {
-    margin-top: 2.5rem;
-    padding: 0; }
-    .section-skills .skill-list li {
-      position: relative;
-      display: inline-block;
-      margin-right: 0.9375rem;
-      height: 5rem;
-      width: 5rem;
-      border-radius: 100%;
-      border: 2px solid transparent;
-      text-align: center;
-      cursor: pointer;
-      transition: all 0.5s ease-in-out; }
-      .section-skills .skill-list li:last-child {
-        margin-right: 0; }
-      .section-skills .skill-list li:hover {
-        border-color: #7DCE94; }
-      .section-skills .skill-list li span {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        transform: translateY(-50%);
-        width: 100%; }
+    cursor: pointer; }
+    .section-skills .skill-list span:not(:last-child) {
+      margin-right: 1rem; }
+    .section-skills .skill-list span .svg-inline--fa {
+      transition: all .2s;
+      transform: scale(1.08); }
+      .section-skills .skill-list span .svg-inline--fa:hover {
+        transform: scale(1.5) translateY(-0.5rem); }
 
 /* Tech Brand Colors */
 .fa-html5 {

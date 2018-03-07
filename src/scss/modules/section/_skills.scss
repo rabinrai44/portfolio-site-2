@@ -3,34 +3,20 @@
     color: $white_color_2;
     
     .skill-list {
-        margin-top: 2.5rem;
-        padding: 0;
-
-        li {
-            position: relative;
-            display: inline-block;
-            margin-right: 0.9375rem;
-            height: 5rem;
-            width: 5rem;
-            border-radius: 100%;
-            border: 2px solid transparent;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.5s ease-in-out;
-
-            &:last-child {
-                margin-right: 0;
-            }
-            &:hover {
-                border-color: $primary_color;
+        cursor: pointer;
+        
+        span {
+            &:not(:last-child) {
+                margin-right: 1rem;
             }
 
-            span {
-                position: absolute;
-                top: 50%;
-                left: 0;
-                transform: translateY(-50%);
-                width: 100%;
+            .svg-inline--fa {
+                transition: all .2s;
+                transform: scale(1.08);
+
+                &:hover {
+                    transform: scale(1.5) translateY(-0.5rem);
+                }
             }
         }
     }
