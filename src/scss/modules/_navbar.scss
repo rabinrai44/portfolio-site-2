@@ -1,0 +1,23 @@
+.navbar-brand {
+        font-weight: 600;
+    }
+
+.navbar-dark {
+
+    .navbar-nav {
+        .nav-link {
+            color: rgba($white_color_2, .8);
+            font-size: 1.125rem;
+            border-bottom: 2px solid transparent;
+            transition: all .4s ease-in;
+    
+            &:focus,
+            &:hover, 
+            &:active {
+                color: $white_color_2;
+                border-bottom: 2px solid $white_color_1;
+            }
+        }
+    }
+}
+ 

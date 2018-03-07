@@ -4,7 +4,8 @@
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import './base/_global';
-@import './modules/_common.scss';
+@import './modules/_common';
+@import './modules/_navbar';
 @import './modules/button/_button';
 @import './modules/form/_form';
 @import './modules/section/_hero';
