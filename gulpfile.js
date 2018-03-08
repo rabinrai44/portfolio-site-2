@@ -8,7 +8,8 @@ gulp.task('sass', () => {
             'node_modules/bootstrap/scss/bootstrap.scss', 
             'src/scss/*.scss'
             ])
-            .pipe(sass())
+            .pipe(sass({outputStyle: 'compressed'})
+            .on('error', sass.logError))
             .pipe(gulp.dest('src/css'))
             .pipe(browswerSync.stream());
 });
