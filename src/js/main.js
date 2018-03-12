@@ -11,7 +11,7 @@
 // Smooth Scrolling
 
 $(document).ready(function(){ 
-    $('nav li a').click(function() {
+    $('a').click(function() {
          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
          && location.hostname == this.hostname) { 
              var $target = $(this.hash); 

@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-site",
-  "version": "1.0.0",
+  "name": "portfolio-site-2",
+  "version": "1.2.0",
   "description": "A personal portfolio website build with bootstrap 4",
   "main": "index.js",
   "scripts": {
