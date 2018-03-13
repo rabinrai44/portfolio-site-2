@@ -1,10 +1,6 @@
-# portfolio-site || [Coding_challenge-2](https://github.com/zero-to-mastery/Coding_Challenge-2) Submission 
-## Submitted on 03/05/2018
-It is a onepage portfolio site for Coding-Challenge #2. This is for a client who likes and want to use or any startup agency.
-- [Live Site](https://rabinrai44.github.io/portfolio-site)
-## Screenshot
-![](https://github.com/rabinrai44/portfolio-site/blob/master/src/assets/images/screenshot.png)
-
+# portfolio-site-2
+It is a onepage portfolio website built with bootstrap 4.
+- [Live Site](https://rabinrai44.github.io/portfolio-site-2)
 
 ## Languages and Tools I used
 
