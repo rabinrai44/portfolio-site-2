@@ -6107,7 +6107,7 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/248515/pexels-photo-248515.png?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); }
 
 #contact {
-  background-image: url(https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); }
+  background-image: linear-gradient(rgba(7, 20, 31, 0.8), rgba(7, 20, 31, 0.6)), url(https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); }
 
 .navbar-brand {
   font-weight: 600; }
