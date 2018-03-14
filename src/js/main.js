@@ -1,12 +1,12 @@
-// Sticky Navigation for future wish
-// $(window).on('scroll', function() {
-//     if ($(window).scrollTop()) {
-//         $('nav').addClass('nav-sticky');
-//     }
-//     else {
-//         $('nav').removeClass('nav-sticky');
-//     }
-// })
+// Sticky Navigation with background
+$(window).scroll(function() {
+    if($('.navbar').offset().top > 50) {
+        $('.fixed-top').addClass('nav-sticky');
+    }
+    else {
+        $('.fixed-top').removeClass('nav-sticky');
+    }
+});
 
 // Smooth Scrolling
 
