@@ -6112,6 +6112,20 @@ section {
 .navbar-brand {
   font-weight: 600; }
 
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #7dce94;
+  border-bottom: 2px solid #7dce94; }
+
+.nav-sticky .navbar-nav .show > .nav-link,
+.nav-sticky .navbar-nav .active > .nav-link,
+.nav-sticky .navbar-nav .nav-link.show,
+.nav-sticky .navbar-nav .nav-link.active {
+  color: #F9F8FD;
+  border-bottom: 2px solid #F9F8FD; }
+
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(249, 248, 253, 0.8);
   font-size: 1.125rem;

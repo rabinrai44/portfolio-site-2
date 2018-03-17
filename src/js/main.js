@@ -8,25 +8,35 @@ $(window).scroll(function() {
     }
 });
 
-// Smooth Scrolling
 
-$(document).ready(function(){ 
-    $('a').click(function() {
-         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-         && location.hostname == this.hostname) { 
-             var $target = $(this.hash); 
-             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-              if ($target.length) { 
-                  var targetOffset = $target.offset().top; 
-                  $('html,body') .animate({
-                      scrollTop: targetOffset
-                        }, 1000);
-                    return false; 
-                        } 
-                    } 
-                }); 
-        });
-// reference: https://www.learningjquery.com/2007/09/animated-scrolling-with-jquery-12
+// SmoothScrolling Navigation
+$(document).ready(function() {
+    let scrollLink = $('.nav-link');
+
+    // Smooth scrolling 
+    scrollLink.click(function(e) {
+        e.preventDefault();
+        $('body, html').animate({
+        scrollTop: $(this.hash).offset().top        
+        }, 1000 );
+    });
+
+    // Active Link Switching 
+    $(window).scroll(function() {
+
+        let scrollNavLocation = $(this).scrollTop();
+
+        scrollLink.each(function() {
+
+            let sectionOffset = $(this.hash).offset().top - 20;
+
+            if (sectionOffset <= scrollNavLocation ) {
+                $(this).parent().addClass('active');
+                $(this).parent().siblings().removeClass('active');
+            }
+        })
+    });
+});
 
 // REVEAL SCROLLING EFFECTS
 window.sr = ScrollReveal();

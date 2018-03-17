@@ -2,6 +2,22 @@
         font-weight: 600;
     }
 
+    .navbar-dark .navbar-nav .show > .nav-link, 
+    .navbar-dark .navbar-nav .active > .nav-link, 
+    .navbar-dark .navbar-nav .nav-link.show, 
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: $primary_color;
+        border-bottom: 2px solid $primary_color;
+    }
+    
+    .nav-sticky .navbar-nav .show > .nav-link, 
+    .nav-sticky .navbar-nav .active > .nav-link, 
+    .nav-sticky .navbar-nav .nav-link.show, 
+    .nav-sticky .navbar-nav .nav-link.active {
+        color: $white_color_2;
+        border-bottom: 2px solid $white_color_2;
+    }
+
 .navbar-dark {
 
     .navbar-nav {
