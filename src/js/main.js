@@ -28,7 +28,7 @@ $(document).ready(function() {
 
         scrollLink.each(function() {
 
-            let sectionOffset = $(this.hash).offset().top - 20;
+            let sectionOffset = $(this.hash).offset().top - 100;
 
             if (sectionOffset <= scrollNavLocation ) {
                 $(this).parent().addClass('active');
