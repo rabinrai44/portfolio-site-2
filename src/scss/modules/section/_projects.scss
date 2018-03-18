@@ -16,7 +16,8 @@
     }
 
     .project-stack {
-        font-weight: bold;
+        font-weight: 400;
+        font-style: italic;
     }
 
     .project-title {
@@ -24,6 +25,10 @@
         font-weight: 400;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .project-single {
+        padding: 60px 0;
     }
 }
 

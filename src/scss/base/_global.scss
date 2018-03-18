@@ -2,6 +2,7 @@ body {
     font-family: 'Nunito', Helveticat, Arial, sans-serif;
     font-weight: 300;
     color: $secondary_color;
+    background-color: #fff;
     line-height: 1.65;
 }
 p {
@@ -65,4 +66,13 @@ h2 {
     @media(min-width: 768px) {
       width: 75%;
     }
+  }
+  .mb-100 {
+    margin-bottom: 100px;
+  }
+  .mt-100 {
+    margin-top: 100px;
+  }
+  .bg-secondary {
+    color: $white_color_2 !important;
   }

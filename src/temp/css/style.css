@@ -6030,6 +6030,7 @@ body {
   font-family: 'Nunito', Helveticat, Arial, sans-serif;
   font-weight: 300;
   color: #07141f;
+  background-color: #fff;
   line-height: 1.65; }
 
 p {
@@ -6087,6 +6088,15 @@ section {
   @media (min-width: 768px) {
     .section-subtitle {
       width: 75%; } }
+
+.mb-100 {
+  margin-bottom: 100px; }
+
+.mt-100 {
+  margin-top: 100px; }
+
+.bg-secondary {
+  color: #F9F8FD !important; }
 
 #hero,
 #skills,
@@ -6283,12 +6293,15 @@ section {
     .section-projects .project-grid .btn-group a:not(:last-child) {
       margin-right: 10px; }
   .section-projects .project-stack {
-    font-weight: bold; }
+    font-weight: 400;
+    font-style: italic; }
   .section-projects .project-title {
     font-size: 1.75rem;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .section-projects .project-single {
+    padding: 60px 0; }
 
 .section-testimonials {
   color: #F9F8FD; }
