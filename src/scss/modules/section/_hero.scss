@@ -25,4 +25,13 @@
             }
         }
     }
+    .btn:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+    .btn-outline-primary {
+        &:hover {
+          color: #fff !important;
+        }
+      }
 }
