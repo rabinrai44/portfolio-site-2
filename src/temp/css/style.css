@@ -6292,6 +6292,8 @@ section {
     padding: 3rem 0; }
     .section-projects .project-grid .btn-group a:not(:last-child) {
       margin-right: 10px; }
+    .section-projects .project-grid .btn-group {
+      margin-top: 2.1875rem; }
   .section-projects .project-stack {
     font-weight: 400;
     font-style: italic; }
@@ -6302,6 +6304,9 @@ section {
     margin-bottom: 10px; }
   .section-projects .project-single {
     padding: 60px 0; }
+
+#projects {
+  padding-bottom: 0; }
 
 .section-testimonials {
   color: #F9F8FD; }
