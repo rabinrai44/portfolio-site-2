@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coming Soon! | RBN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bgimg">
+        <div class="middle">
+            <h1>COMING SOON!</h1>
+            <hr>
+
+            <p id="demo" style="font-size: 30px; "></p>
+
+
+            <a href="../index.html">Go back to rabinrai.com</a>
+        </div>
+    </div>
+
+    <script>
+        // Set the date for counting down to 
+        const countDownDate = new Date("April 20, 2018, 00:00:00").getTime();
+        
+        // Update the count down every 1 second 
+        const countDownFunction = setInterval(function() {
+            // Get todays date and time 
+            let now = new Date().getTime();
+
+            // find the distance between now an the count down date 
+            let distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((distance % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+
+            // if the count down is over, write some text
+            if (distance < 0) {
+                clearInterval(countDownFunction);
+                document.getElementById("demo").innerHTML = "EXPIRED!";
+            }
+
+        }, 1000)
+    </script>
+</body>
+</html>

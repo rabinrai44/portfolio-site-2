@@ -1,0 +1,40 @@
+/*
+    COMING SOON! PAGE STYLES
+*/
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bgimg {
+    background: url('https://images.unsplash.com/photo-1465588042420-47a53c2d0320?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a92c4e3580094ddd156079701920b260&auto=format&fit=crop&w=2295&q=80');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    font-family: Prime;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
+ h1 {
+     font-size: 2.15rem;
+     letter-spacing: 2rem;
+     font-weight: 100;
+ }
+
+ #demo {
+    font-weight: lighter;
+    word-spacing: 1.25rem;
+ }
+
+ hr {
+     margin: auto;
+     width: 88%;
+     border: 1.5px solid #fff;
+ }
