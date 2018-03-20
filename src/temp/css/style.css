@@ -6114,7 +6114,7 @@ section {
   overflow: hidden; }
 
 #contact {
-  background-image: linear-gradient(rgba(7, 20, 31, 0.8), rgba(7, 20, 31, 0.6)), url(https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); }
+  background-image: linear-gradient(rgba(7, 20, 31, 0.8), rgba(7, 20, 31, 0.94)), url(https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); }
 
 .navbar-brand {
   font-weight: 600; }
@@ -6175,22 +6175,21 @@ section {
     padding: 1rem 1.2rem; }
 
 .form__group {
-  margin-bottom: 1rem; }
+  margin-bottom: .7rem; }
 
 .form__input {
   font-size: 1.125rem;
   font-family: inherit;
-  color: inherit;
-  padding: 1.2rem 1.875rem;
+  color: #F6F5F3;
+  padding: .5rem 1.375rem;
   border-radius: 2px;
-  background-color: rgba(125, 206, 148, 0.4);
+  background-color: transparent;
   border: 0;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid rgba(137, 148, 156, 0.1);
   display: block; }
   .form__input:focus {
     outline: none;
-    box-shadow: 0 1rem 2rem rgba(137, 148, 156, 0.1);
-    border-bottom: 3px solid #7dce94; }
+    border-bottom: 2px solid #7dce94; }
   .form__input:focus:invalid {
     border-bottom: 2px solid #dc3545; }
   .form__input::-webkit-input-placeholder {
@@ -6207,6 +6206,25 @@ section {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-4rem); }
+
+.contact-form textarea {
+  font-size: 1.125rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(137, 148, 156, 0.1);
+  padding-left: 2rem; }
+  .contact-form textarea:focus {
+    outline: transparent;
+    border-bottom: 2px solid #7dce94;
+    box-shadow: none; }
+  .contact-form textarea:focus:invalid {
+    outline: none;
+    border-bottom: 2px solid #dc3545; }
+
+.form-control:focus {
+  color: #F6F5F3;
+  background-color: transparent;
+  box-shadow: none; }
 
 .section-hero--content {
   display: table-cell;
@@ -6378,28 +6396,31 @@ section {
 
 .section-contact {
   color: #F9F8FD; }
-  .section-contact .social-link-group {
-    /* Hover Effect */ }
-    .section-contact .social-link-group a {
-      font-size: 1.375rem; }
-      .section-contact .social-link-group a:not(:last-child) {
-        margin-right: 2.5rem; }
-      .section-contact .social-link-group a .fa-facebook-f {
-        color: #3b5998; }
-      .section-contact .social-link-group a .fa-twitter {
-        color: #00aced; }
-      .section-contact .social-link-group a .fa-google-plus-g {
-        color: #dd4b39; }
-      .section-contact .social-link-group a .fa-github {
-        color: #4078c0; }
-      .section-contact .social-link-group a .fa-linkedin-in {
-        color: #0077b5; }
-    .section-contact .social-link-group .fa-facebook-f:hover,
-    .section-contact .social-link-group .fa-twitter:hover,
-    .section-contact .social-link-group .fa-linkedin-in:hover,
-    .section-contact .social-link-group .fa-github:hover {
-      color: #F9F8FD;
-      transform: translateY(-10px); }
 
 .main-footer {
+  margin: 0;
   padding: 3rem 0; }
+  .main-footer .social-link-group a:not(:last-child) {
+    margin-right: 2.5rem; }
+  .main-footer .social-link-group .fa-facebook-f {
+    color: #3b5998; }
+  .main-footer .social-link-group .fa-twitter {
+    color: #00aced; }
+  .main-footer .social-link-group .fa-google-plus-g {
+    color: #dd4b39; }
+  .main-footer .social-link-group .fa-github {
+    color: #4078c0; }
+  .main-footer .social-link-group .fa-linkedin-in {
+    color: #0077b5; }
+  .main-footer .social-link-group .fa-facebook-f,
+  .main-footer .social-link-group .fa-twitter,
+  .main-footer .social-link-group .fa-github,
+  .main-footer .social-link-group .fa-linkedin-in {
+    transition: all .3s ease-in-out;
+    /* Hover Effect */ }
+    .main-footer .social-link-group .fa-facebook-f:hover,
+    .main-footer .social-link-group .fa-twitter:hover,
+    .main-footer .social-link-group .fa-github:hover,
+    .main-footer .social-link-group .fa-linkedin-in:hover {
+      color: #F9F8FD;
+      transform: translateY(-10px); }

@@ -1,24 +1,23 @@
 .form {
     
     &__group {
-        margin-bottom: 1rem;
+        margin-bottom: .7rem;
     }
     
     &__input {
         font-size: 1.125rem;
         font-family: inherit;
-        color: inherit;
-        padding: 1.2rem 1.875rem;
+        color: $white_color_1;
+        padding: .5rem 1.375rem;
         border-radius: 2px;
-        background-color: rgba($primary_color, .4);
+        background-color: transparent;
         border: 0;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid rgba($primary_dark_color, .1);
         display: block;
 
         &:focus {
             outline: none;
-            box-shadow: 0 1rem 2rem rgba($primary_dark_color, .1);
-            border-bottom: 3px solid $primary_color;
+            border-bottom: 2px solid $primary_color;
         }
 
         &:focus:invalid {
@@ -42,5 +41,34 @@
         opacity: 0;
         visibility: hidden;
         transform: translateY(-4rem);
+        }
+    }
+
+    .contact-form {
+        textarea {
+            font-size: 1.125rem;
+            background-color: transparent;
+            border: 0;
+            border-bottom: 1px solid rgba($primary_dark_color, .1);
+            padding-left: 2rem;
+            &:focus {
+                outline: transparent;
+                border-bottom: 2px solid $primary_color;
+                box-shadow: none;
+            }
+            &:focus:invalid {
+                outline: none;
+                border-bottom: 2px solid $danger;
+            }
+        }
+    }
+
+    // Bootstrap override 
+    .form-control {
+
+        &:focus {
+            color: $white_color_1;
+            background-color: transparent;
+            box-shadow: none;
         }
     }
