@@ -1,6 +1,6 @@
 // Sticky Navigation with background
 $(window).scroll(function() {
-    if($('.navbar').offset().top > 50) {
+    if($('.navbar').offset().top > 150) {
         $('.fixed-top').addClass('nav-sticky');
     }
     else {

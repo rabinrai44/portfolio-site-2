@@ -9,14 +9,6 @@
         color: $primary_color;
         border-bottom: 2px solid $primary_color;
     }
-    
-    .nav-sticky .navbar-nav .show > .nav-link, 
-    .nav-sticky .navbar-nav .active > .nav-link, 
-    .nav-sticky .navbar-nav .nav-link.show, 
-    .nav-sticky .navbar-nav .nav-link.active {
-        color: $white_color_2;
-        border-bottom: 2px solid $white_color_2;
-    }
 
 .navbar-dark {
 
@@ -41,20 +33,21 @@
     padding: 1.375rem 0;
     background: transparent;
     transition: background .5s ease-in-out, padding .5s ease-in-out;
-    border-bottom: 1px solid rgba($primary_color, .4);    
+    border-bottom: 1px solid rgba($white_color_1, .4);    
 }
 .nav-sticky {
     padding: .75rem;
-    background-color: rgba($primary_color, .94) !important;
+    background-color: rgba(#fff, .96) !important;
+    box-shadow: 0px 2px 4px rgba($secondary_color, .06);
 
     .navbar-nav {
         .nav-link {
-            color: #ffffff;
+            color: rgba($secondary_color, .8) !important;
             &:focus,
             &:hover, 
             &:active {
-                color: $white_color_2;
-                border-bottom: 2px solid $white_color_2;
+                color: $primary_color !important;
+                border-bottom: 2px solid $primary_color;
             }
         }
     }
