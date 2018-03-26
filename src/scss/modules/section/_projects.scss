@@ -1,4 +1,5 @@
 .section-projects {
+    padding: 0;
     text-align: center;
     @media (min-width: 540px) {
         text-align: inherit;
@@ -66,4 +67,25 @@
     transform: scale(1);
     filter: alpha(opacity=60);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+  }
+
+  /* section-project-home */
+  .project-home {
+      height: 400px;
+      width: 100%;
+      position: relative;
+      background-image: linear-gradient(rgba($secondary_color, .4), rgba($secondary_color, .3)), url(../../assets/images/Projects/smart-brain.png);
+      overflow: hidden;
+
+      &-content {
+          color: $white_color_2;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &-title {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+      }
   }

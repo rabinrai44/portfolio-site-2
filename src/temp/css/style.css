@@ -6300,6 +6300,7 @@ section {
   color: #21759b; }
 
 .section-projects {
+  padding: 0;
   text-align: center; }
   @media (min-width: 540px) {
     .section-projects {
@@ -6350,6 +6351,23 @@ section {
   transform: scale(1);
   filter: alpha(opacity=60);
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7); }
+
+/* section-project-home */
+.project-home {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(rgba(7, 20, 31, 0.4), rgba(7, 20, 31, 0.3)), url(../../assets/images/Projects/smart-brain.png);
+  overflow: hidden; }
+  .project-home-content {
+    color: #F9F8FD;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%); }
+  .project-home-title {
+    font-size: 3rem;
+    margin-bottom: 1rem; }
 
 .section-contact {
   color: #F9F8FD; }
