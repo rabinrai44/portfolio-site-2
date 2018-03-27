@@ -6118,6 +6118,9 @@ section {
 #contact {
   background-image: linear-gradient(rgba(7, 20, 31, 0.8), rgba(7, 20, 31, 0.94)), url(https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); }
 
+.call-action-primary {
+  color: #F9F8FD; }
+
 .navbar-brand {
   font-weight: 600; }
 
