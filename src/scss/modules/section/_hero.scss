@@ -4,14 +4,16 @@
         display: table-cell;
         vertical-align: middle;
         width: 1%;
-        height: 80vh;
-        color: white;
-        text-align: left;
+        height: 600px;
+        // color: white;
+        text-align: center;
 
         h1 {
             @media (min-width: 768px) {
-            font-size: 3.875rem;            
+            font-size: 3.875rem;   
+            font-weight: 700;   
             }
+            color: $dark;
             font-weight: 400;
         }
         
@@ -25,11 +27,8 @@
             }
         }
     }
-    .btn:not(:last-child) {
-        margin-right: 2rem;
-    }
-
     .btn-outline-primary {
+        transition: all .1s ease-in-out;
         &:hover {
           color: #fff !important;
         }
