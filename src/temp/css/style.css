@@ -6235,6 +6235,9 @@ section {
   .section-hero .btn-outline-primary:hover {
     color: #fff !important; }
 
+.hireme {
+  background-color: #eee; }
+
 .section-about {
   text-align: center; }
   @media (min-width: 320px) {
