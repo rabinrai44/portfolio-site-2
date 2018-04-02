@@ -9,12 +9,18 @@
         text-align: center;
 
         h1 {
+            font-family: 'Roboto Condensed', sans-serif;             
+            font-size: 3rem; 
+            font-weight: 400;
+            letter-spacing: 2px; 
+            line-height: 1.1; 
+            text-transform: uppercase; 
+
             @media (min-width: 768px) {
-            font-size: 3.875rem;   
+            font-size: 4.5rem;   
             font-weight: 700;   
             }
             color: $dark;
-            font-weight: 400;
         }
         
         p {
@@ -29,6 +35,8 @@
     }
     .btn-outline-primary {
         transition: all .1s ease-in-out;
+        padding-left: 40px; 
+        padding-right: 40px;
         &:hover {
           color: #fff !important;
         }
