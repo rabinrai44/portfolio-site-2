@@ -1,91 +1,70 @@
-.section-projects {
-    padding: 0;
-    text-align: center;
-    @media (min-width: 540px) {
-        text-align: inherit;
+  .col-project {
+      padding: 0 0.75rem;
+  }
+
+  .project-item {
+    position: relative;
+    color: #fff;
+
+    figure {
+        margin: 0;
     }
-    p {
-        margin-top: 1.75rem;
-    }
+    &-thumbnail {
 
-    .project-grid {
-        padding: 3rem 0;
-
-        .btn-group a:not(:last-child) {
-            margin-right: 10px;
-        }
-
-        .btn-group {
-            margin-top: 2.1875rem;
+        img {
+            display: block;
+            width: 100%;
         }
     }
 
-    .project-stack {
-        font-weight: 400;
-        font-style: italic;
-    }
-
-    .project-title {
-        font-size: 1.75rem;
-        font-weight: 400;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .project-single {
-        padding: 60px 0;
-    }
-}
-
-#projects {
-    padding-bottom: 0;
-}
-
-/* images hoverEffect */
-.hovereffect {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .hovereffect img {
-    display: block;
-    position: relative;
-    max-width: none;
-    transform: scale(1.04);
-    width: calc(100% + 60px);
-    transition: all 0.7s ease;
-  }
-  
-  .hovereffect:hover img {
-      border-radius: 5px;
-    opacity: 0.9;
-    transform: scale(1);
-    filter: alpha(opacity=60);
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
-  }
-
-  /* section-project-home */
-  .project-home {
-      height: 400px;
-      width: 100%;
-      position: relative;
-      background-image: linear-gradient(rgba($secondary_color, .4), rgba($secondary_color, .3)), url(../../assets/images/Projects/smart-brain.png);
-      overflow: hidden;
-
-      &-content {
-          color: $white_color_2;
+    &-hover {
         position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-      &-title {
-          font-size: 3rem;
-          margin-bottom: 1rem;
-      }
-  }
+        overflow: hidden;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        color: #fff;
+        background-color: rgba($primary_color, 0.92);
+        -webkit-transition: all 0.4s ease-in;
+        -o-transition: all 0.4s ease-in;
+        -ms-transition: all 0.4s ease-in;
+        transition: all 0.4s ease-in;
+    }
+
+    &-info {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        opacity: 0;
+        width: 100%;
+        padding: 0 2em;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: all 0.4s ease-in;
+        -ms-transition: all 0.4s ease-in;
+        transition: all 0.4s ease-in;
+    }
+
+    &-cat {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.375em;
+        letter-spacing: 0.1em;
+    }
+
+    &-title {
+        font-size: 1.2em;
+    }
+
+    &:hover .project-item-hover,
+    &:hover .project-item-info {
+        opacity: 1;
+        left: 0;
+    }
+}
