@@ -6100,24 +6100,8 @@ section {
 .bg-secondary {
   color: #F9F8FD !important; }
 
-#hero,
-#skills,
-#contact {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-
 #hero {
-  position: relative;
-  height: 640px;
-  overflow: hidden; }
-
-#contact {
-  background-image: linear-gradient(rgba(7, 20, 31, 0.8), rgba(7, 20, 31, 0.94)), url(https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); }
-
-.call-action-primary {
-  color: #F9F8FD; }
+  height: 640px; }
 
 .navbar-brand {
   font-weight: 600; }
@@ -6253,45 +6237,44 @@ section {
   .section-about p {
     margin-top: 1.25rem; }
   .section-about img {
-    max-width: 100%; }
-  .section-about .btn {
-    margin-right: 2rem; }
+    width: 200px;
+    height: 200px;
+    border-radius: 100%; }
 
-.section-skills {
-  color: #F9F8FD; }
-  .section-skills .skill-list {
-    cursor: pointer; }
-    .section-skills .skill-list span:not(:last-child) {
-      margin-right: 1rem; }
-    .section-skills .skill-list span .svg-inline--fa {
-      transition: all .2s;
-      transform: scale(1.08); }
-      .section-skills .skill-list span .svg-inline--fa:hover {
-        transform: scale(1.5) translateY(-0.5rem); }
+.section-skills .skill-list {
+  cursor: pointer;
+  color: #89949c; }
+  .section-skills .skill-list span:not(:last-child) {
+    margin-right: 1rem; }
+  .section-skills .skill-list span .svg-inline--fa {
+    transition: all .2s;
+    transform: scale(1.08); }
+    .section-skills .skill-list span .svg-inline--fa:hover {
+      transform: scale(1.3) translateY(-0.5rem); }
 
 /* Tech Brand Colors */
-.fa-html5 {
+.fa-html5:hover {
   color: #e34f26; }
 
-.fa-css3 {
+.fa-css3:hover {
   color: #1572b6; }
 
-.fa-js {
+.fa-js:hover {
   color: #f0db4f; }
 
-.fa-php {
+.fa-php:hover {
   color: #8892be; }
 
-.fa-node-js {
+.fa-node-js:hover {
   color: #6cc24a; }
 
-.fa-react {
+.fa-react:hover {
   color: #00d8ff; }
 
-.fa-github {
+.fa-github:hover {
   color: #4078c0; }
 
-.fa-wordpress {
+.fa-wordpress:hover {
   color: #21759b; }
 
 .col-project {
@@ -6346,9 +6329,6 @@ section {
   .project-item:hover .project-item-info {
     opacity: 1;
     left: 0; }
-
-.section-contact {
-  color: #F9F8FD; }
 
 .main-footer {
   margin: 0;
