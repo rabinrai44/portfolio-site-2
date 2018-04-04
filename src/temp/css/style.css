@@ -6236,10 +6236,6 @@ section {
       text-align: inherit; } }
   .section-about p {
     margin-top: 1.25rem; }
-  .section-about img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%; }
 
 .section-skills .skill-list {
   cursor: pointer;
