@@ -1,4 +1,6 @@
 .section-hero {
+
+    background-image: linear-gradient(to bottom, $primary_color 0%, #fff 100%);
     
     &--content {
         display: table-cell;
@@ -15,6 +17,7 @@
             letter-spacing: 2px; 
             line-height: 1.1; 
             text-transform: uppercase; 
+            text-shadow: 2px 2px 2px $white_color_1;
 
             @media (min-width: 768px) {
             font-size: 4.5rem;   
@@ -26,6 +29,7 @@
         p {
             font-size: 1.125rem;
             letter-spacing: 0.125rem;
+            text-shadow: 2px 2px 2px $white_color_1;
 
             @media (min-width: 540px) {
                 font-weight: 400;
@@ -33,12 +37,7 @@
             }
         }
     }
-    .btn-outline-primary {
-        transition: all .1s ease-in-out;
-        padding-left: 40px; 
-        padding-right: 40px;
-        &:hover {
-          color: #fff !important;
-        }
+    .btn-primary {
+        color: #fff !important;
       }
 }
