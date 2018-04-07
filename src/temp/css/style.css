@@ -6106,6 +6106,9 @@ section {
 .bg-gradient-primary {
   background-image: linear-gradient(to bottom, #7dce94 0%, #fff 100%); }
 
+.bg-gradient-primary-1 {
+  background-image: linear-gradient(to top, #7dce94 0%, #fff 100%); }
+
 .navbar-brand {
   font-weight: 600; }
 

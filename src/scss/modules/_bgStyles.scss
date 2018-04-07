@@ -1,3 +1,6 @@
 .bg-gradient-primary {
     background-image: linear-gradient(to bottom, $primary_color 0%, #fff 100%);
 }
+.bg-gradient-primary-1 {
+    background-image: linear-gradient(to top, $primary_color 0%, #fff 100%);
+}
