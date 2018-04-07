@@ -6103,6 +6103,9 @@ section {
 #hero {
   height: 640px; }
 
+.bg-gradient-primary {
+  background-image: linear-gradient(to bottom, #7dce94 0%, #fff 100%); }
+
 .navbar-brand {
   font-weight: 600; }
 
@@ -6193,40 +6196,39 @@ section {
   background-color: transparent;
   box-shadow: none; }
 
-.section-hero {
-  background-image: linear-gradient(to bottom, #7dce94 0%, #fff 100%); }
-  .section-hero--content {
-    display: table-cell;
-    vertical-align: middle;
-    width: 1%;
-    height: 600px;
-    text-align: center; }
-    .section-hero--content h1 {
-      font-family: 'Roboto Condensed', sans-serif;
-      font-size: 3rem;
-      font-weight: 400;
-      letter-spacing: 2px;
-      line-height: 1.1;
-      text-transform: uppercase;
-      text-shadow: 2px 2px 2px #F6F5F3;
-      color: #343a40; }
-      @media (min-width: 768px) {
-        .section-hero--content h1 {
-          font-size: 4.5rem;
-          font-weight: 700; } }
-    .section-hero--content p {
-      font-size: 1.125rem;
-      letter-spacing: 0.125rem;
-      text-shadow: 2px 2px 2px #F6F5F3; }
-      @media (min-width: 540px) {
-        .section-hero--content p {
-          font-weight: 400;
-          margin-bottom: 3.75rem; } }
-  .section-hero .btn-primary {
-    color: #fff !important; }
+.section-hero--content {
+  display: table-cell;
+  vertical-align: middle;
+  width: 1%;
+  height: 600px;
+  text-align: center; }
+  .section-hero--content h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #F6F5F3;
+    color: #343a40; }
+    @media (min-width: 768px) {
+      .section-hero--content h1 {
+        font-size: 4.5rem;
+        font-weight: 700; } }
+  .section-hero--content p {
+    font-size: 1.125rem;
+    letter-spacing: 0.125rem;
+    text-shadow: 2px 2px 2px #F6F5F3; }
+    @media (min-width: 540px) {
+      .section-hero--content p {
+        font-weight: 400;
+        margin-bottom: 3.75rem; } }
 
-.hireme {
-  background-color: #eee; }
+.section-hero .btn-primary {
+  color: #fff !important; }
+
+.hireme h2 {
+  color: #fff; }
 
 .section-about {
   text-align: center; }
