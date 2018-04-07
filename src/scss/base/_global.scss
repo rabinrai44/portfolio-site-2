@@ -26,7 +26,7 @@ h2 {
     background: $primary_color;
     position: relative;
     border: 0;
-    margin: 2rem auto 2rem auto;
+    margin: 1rem auto 2rem auto;
   }
   .hr {
     &--white {
@@ -55,7 +55,7 @@ h2 {
   .section-title {
     color: $primary_dark_color;
     padding-top: 10px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 2.5rem;
 
     &--white {

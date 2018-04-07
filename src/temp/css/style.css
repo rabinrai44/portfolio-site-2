@@ -6054,7 +6054,7 @@ hr {
   background: #7dce94;
   position: relative;
   border: 0;
-  margin: 2rem auto 2rem auto; }
+  margin: 1rem auto 2rem auto; }
 
 .hr--white {
   background: #F9F8FD; }
@@ -6080,7 +6080,7 @@ section {
 .section-title {
   color: #89949c;
   padding-top: 10px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   line-height: 2.5rem; }
   .section-title--white {
     color: #F9F8FD; }
@@ -6229,6 +6229,16 @@ section {
 
 .section-hero .btn-primary {
   color: #fff !important; }
+
+.services .card {
+  transition: all 0.4s ease-in;
+  cursor: pointer; }
+  .services .card:hover {
+    color: #fff;
+    background-color: #7dce94;
+    border-color: #7dce94;
+    box-shadow: 0 0 10px #7dce94;
+    transform: translateY(-5px); }
 
 .hireme h2 {
   color: #fff; }
