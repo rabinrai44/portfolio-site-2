@@ -11,14 +11,14 @@ $(window).scroll(function() {
 
 // SmoothScrolling Navigation
 $(document).ready(function() {
-    let scrollLink = $('.nav-link');
+    let scrollLink = $('a');
 
     // Smooth scrolling 
     scrollLink.click(function(e) {
         e.preventDefault();
         $('body, html').animate({
         scrollTop: $(this.hash).offset().top        
-        }, 1000 );
+        }, 2000 );
     });
 
     // Active Link Switching 
