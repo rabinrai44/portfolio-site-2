@@ -6228,7 +6228,7 @@ section {
   cursor: pointer; }
   .services .card:hover {
     color: #fff;
-    background-color: #7dce94;
+    background-color: transparent;
     border-color: #7dce94;
     box-shadow: 0 0 10px #7dce94;
     transform: translateY(-5px); }
