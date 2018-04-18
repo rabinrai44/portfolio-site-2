@@ -2,6 +2,7 @@
 $(window).scroll(function() {
     if($('.navbar').offset().top > 150) {
         $('.fixed-top').addClass('nav-sticky');
+        $('.fixed-top').addClass('bg-light');
     }
     else {
         $('.fixed-top').removeClass('nav-sticky');

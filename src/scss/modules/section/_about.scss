@@ -1,4 +1,8 @@
 .section-about {
+    color: $white_color_2;
+    background-image: linear-gradient(rgba($secondary_color, .8), rgba($secondary_color, .3)), url('../../assets/images/about_bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     
     @media (min-width: 320px) {
